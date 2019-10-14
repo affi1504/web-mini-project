@@ -5,6 +5,12 @@
 
 header{
     float: right;
+    margin-top: 25px;
     
+}
+header ul li
+{
+    position: relative;
+    margin-right: 20px;
 }
 
