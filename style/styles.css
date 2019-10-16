@@ -1,23 +1,112 @@
-*{
+body{
     margin: 0;
     padding: 0;
-}
-
-header{
-    float: right;
-    margin-top: 25px;
+    background-color:white; 
     
+
+
 }
-header ul li
-{
-    display: inline;
-    position: relative;
-    margin-right: 20px;
+.contact-form{
+    width: 65%;
+    max-width: 450px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px ;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+    color: white;
+    background: black;;
 }
 
-header ul li a {
+.textb{
+    border:1px solid black ;
+    margin:8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.textb label{
+    display: block;
+    text-align: left;
+    color:white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.textb input,.textb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+    color: white;
+}
+.btn{
+    display: block;
+    background: #0088ae;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+/* Navigation */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+ header li,a{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
     text-decoration: none;
-    color: black;
-    border: solid 1px #999;
-    padding: 5px 10px;
+}
+header{
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+    padding: 30px 10px;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0,3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088ae;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0,3s ease 0s ;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8) ;
 }
