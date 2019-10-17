@@ -1,10 +1,13 @@
-body{
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:white; 
-    
+}
 
-
+body{
+    background-color:;
+    width: 100vw;
+    height:100vh; 
 }
 .contact-form{
     width: 65%;
@@ -62,31 +65,29 @@ body{
 }
 /* Navigation */
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #24252A;
-}
+
  header li,a{
     font-family: "Montserrat",sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     color: #edf0f1;
     text-decoration: none;
 }
 header{
     display: flex;
-    justify-content:flex-end ;
-    align-items: center;
-    padding: 30px 10px;
+    justify-content:flex-end;
+    align-items: right;
+    padding: 10px 5px;
+    background-color: rgba(45,45,45,0.98);
 }
 .nav__links{
     list-style: none;
 }
 .nav__links li{
-    display:inline-block;
-    padding: 0px 20px;
+    display:inline;
+    align-items: center;
+    padding: 3px 10px;
+    margin-right:20px;
 }
 
 .nav__links li a{
@@ -94,19 +95,5 @@ header{
 }
 
 .nav__links li a:hover{
-    color: #0088ae;
-}
-
-button{
-    margin-left: 20px;
-    padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition:all 0,3s ease 0s ;
-}
-
-button:hover{
-    background-color: rgba(0,136,169,0.8) ;
+    color:#ccc;
 }
