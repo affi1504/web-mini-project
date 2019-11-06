@@ -14,45 +14,44 @@
                 <div class="container">
                     <h1 class="logo">ALTA</h1>
                     <ul class="nav">
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="phones.html">phones</a></li>
-                        <li><a href="headphones.html">headphones</a></li>
-                        <li><a href="" class="selected">speakers</a></li>
-                        <li><a href="about.html">about</a></li>
-                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="index.php">home</a></li>
+                        <li><a href="phones.php">phones</a></li>
+                        <li><a href=""  class="selected">headphones</a></li>
+                        <li><a href="speakers.php">speakers</a></li>
+                        <li><a href="about.php">about</a></li>
+                        <li><a href="contact.php">contact</a></li>
           
                     </ul>
                 </div>
-            </div>   
+            </div>  
             <section class="section-a">
                 <div class="container">
                     <div>
-                        <h1>speakers of the future </h1>
+                        <h1>Headphones of the future </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
                         <a href="" class="btn1">read more</a>
                     </div>
-                        <img src="images/speaker1.png" alt="">    
-                </div>
-            </section> 
-           
-            <section class="section-a">
-                <div class="container">
-                    <div>
-                        <h1>speakers of the future </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                        <a href="" class="btn1">read more</a>
-                    </div>
-                        <img src="images/speaker3.png" alt="">    
+                        <img src="images/headphone1.png" alt="">    
                 </div>
             </section>
             <section class="section-a">
                 <div class="container">
                     <div>
-                        <h1>speakers of the future </h1>
+                        <h1>Airpods of the future </h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
                         <a href="" class="btn1">read more</a>
                     </div>
-                        <img src="images/speaker2.png" alt="">    
+                        <img src="images/headphone2.png" alt="">    
+                </div>
+            </section>
+            <section class="section-a">
+                <div class="container">
+                    <div>
+                        <h1>Ear buds of the future </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
+                        <a href="" class="btn1">read more</a>
+                    </div>
+                        <img src="images/headphone3.png" alt="">    
                 </div>
             </section>
 </body>

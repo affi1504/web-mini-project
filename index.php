@@ -15,11 +15,11 @@
           <h1 class="logo">ALTA</h1>
           <ul class="nav">
               <li><a href="" class="selected">home</a></li>
-              <li><a href="phones.html">phones</a></li>
-              <li><a href="headphones.html">headphones</a></li>
-              <li><a href="speakers.html">speakers</a></li>
-              <li><a href="about.html">about</a></li>
-              <li><a href="contact.html">contact</a></li>
+              <li><a href="phones.php">phones</a></li>
+              <li><a href="headphones.php">headphones</a></li>
+              <li><a href="speakers.php">speakers</a></li>
+              <li><a href="about.php">about</a></li>
+              <li><a href="contact.php">contact</a></li>
 
           </ul>
       </div>

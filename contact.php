@@ -14,11 +14,11 @@
                 <div class="container">
                     <h1 class="logo">ALTA</h1>
                     <ul class="nav">
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="phones.html">phones</a></li>
-                        <li><a href="headphones.html">headphones</a></li>
-                        <li><a href="speakers.html">speakers</a></li>
-                        <li><a href="about.html">about</a></li>
+                        <li><a href="index.php">home</a></li>
+                        <li><a href="phones.php">phones</a></li>
+                        <li><a href="headphones.php">headphones</a></li>
+                        <li><a href="speakers.php">speakers</a></li>
+                        <li><a href="about.php">about</a></li>
                         <li><a href="" class="selected">contact</a></li>
           
                     </ul>
