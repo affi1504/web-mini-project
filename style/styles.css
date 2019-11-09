@@ -35,44 +35,6 @@ img{
     width: 100%;
 }
 
-.container{
-    max-width: 1100px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0 2rem;
-}
-
-.navbar{
-    font-size: 1.2rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-}
-
-.navbar .container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-
-.logo{
-    font-size: 2rem;
-    color: var(--primary-color);
-}
-
-.navbar .nav {
-    justify-self: flex-end;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar .nav a{
-    padding: 0.5rem 2rem;
-}
-
-.navbar .nav a:hover{
- color: #777;
-}
-
 .section-a{
     margin: 2rem 0;
 }
@@ -107,13 +69,6 @@ img{
 
 .btn1:hover{
     background: var(--secondary-color);
-}
-
-.selected{
-    border: solid 1px var(--primary-color);
-    border-radius: 30px;
-    background: var(--primary-color);
-    color: #fff;
 }
 
 .section-b{
@@ -157,10 +112,6 @@ img{
     margin: 1rem;
     color: #fff;
 }
-
-
-
-
 .section-footer {
     background: #fff;
     color: #000;

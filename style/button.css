@@ -1,0 +1,120 @@
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 1rem 2rem;
+}
+
+ .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-size: 1.2rem;
+    padding: 0;
+}
+ .navbar .nav {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.navbar .nav li{
+    padding:0;
+    margin:0;
+}
+.navbar .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:0.5rem 0.5rem 0 0.5rem;
+}
+
+.logo{
+    font-size: 2rem;
+    color: #000 ;
+}
+
+.selected{
+    color: #fff;
+    background: #000;
+    box-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+    transition-delay: 1s;
+
+}
+
+.btn-glow{
+    position: relative;
+    margin: 5px;
+    padding: 5px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn-glow:hover{
+    color: #fff;
+ background: #000;
+ box-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+ transition-delay: 1s;
+} 
+
+
+
+.btn-glow span{
+    position: absolute;
+    display: block;
+}
+.btn-glow span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#000);
+}
+.btn-glow:hover span:nth-child(1){
+    left: 100%;
+    transition:1s;
+}
+
+.btn-glow span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#000);
+}
+.btn-glow:hover span:nth-child(3){
+    right: 100%;
+    transition:1s;
+    transition-delay: 0.5s;
+}
+
+.btn-glow span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#000);
+}
+.btn-glow:hover span:nth-child(2){
+    top: 100%;
+    transition:1s;
+    transition-delay: 0.25s;
+}
+
+.btn-glow span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#000);
+}
+.btn-glow:hover span:nth-child(4){
+    bottom: 100%;
+    transition:1s;
+    transition-delay: 0.75s;
+}
