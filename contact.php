@@ -50,7 +50,9 @@
                 <textarea class="input message" cols="30" rows="10" placeholder="message......"></textarea>
             </div>
         </div>
+       
         <div class="btn">
+        <input type="submit" value="submit">
         <i class="fas fa-arrow-right"> </i>
         </div>
 
