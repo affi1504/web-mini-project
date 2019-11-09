@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/957812a91c.js"></script>
     <link rel="stylesheet" href="style\styles.css">
-    <link rel="stylesheet" href="style\button.css">
+    <link rel="stylesheet" href="style\navbar.css">
     <title>ALTA-products of the future</title>
 </head>
 <body>

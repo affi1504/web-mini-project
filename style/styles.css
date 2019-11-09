@@ -8,13 +8,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 body{
     font-family: 'Catamaran',sans-serif;
     line-height: 1.6;
     color: #000;
+    background: #ebeef1;
     font-size: 1.1rem;
 }
 
@@ -142,7 +142,6 @@ img{
     color: #000;
     margin-right: 0.5rem;
   }
-  
 
 
 
@@ -150,59 +149,108 @@ img{
 
 
 
+.contact-us{
+    width: 400px;
+    background: #fff;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+}
 
-
-.contact-form{
-    width: 65%;
-    max-width: 450px;
-    background: black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 30px 40px ;
-    box-sizing: border-box;
-    border-radius: 8px;
+.title{
+    color: #000;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
     text-align: center;
-    box-shadow: 0 0 20px #000000b3;
-    font-family: "Montserrat",sans-serif;
-}
-.contact-form h1{
-    margin-top: 0;
-    font-weight: 200;
-    color: white;
-    background: black;;
 }
 
-.textb{
-    border:1px solid black ;
-    margin:8px 0;
-    padding: 12px 18px;
-    border-radius: 8px;
+.form ,.form-items{
+    width:100%;
 }
-.textb label{
-    display: block;
-    text-align: left;
-    color:white;
-    text-transform: uppercase;
+
+.form-items .input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding:15px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border: 0;
+    outline: none;
+    border-radius:30px;
+}
+
+.form-items .input.message{
+    height: 125px;
+    border-radius:15px;
+    margin-bottom:20px;
+    padding: 15px;
+    resize: none;
+}
+
+.btn{
+    background:#827ffe;
+   text-align: center;
+   color:#fff;
+   width: 100%;
+   border:0;
+   outline: none;
+   padding: 12px;
+   font-size: 18px;
+   border-radius: 25px;
+   cursor: pointer;
+}
+
+.btn .fas{
+    margin-left:10px;
     font-size: 14px;
 }
-.textb input,.textb textarea{
-    width: 100%;
-    border: none;
-    background: none;
-    outline: none;
-    font-size: 18px;
-    margin-top: 6px;
-    color: white;
+
+ .form-items{
+     position: relative;
+ }
+ 
+ .form-items .fas{
+     position: absolute;
+     top: 15px;
+     left: 15px;
+     color: #9a99aa;
+ }
+
+ .social-icons{
+     position: absolute;
+     bottom: -25px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 200px;
+     display: flex;
+     justify-content: space-around;
+
+ }
+
+ .social-icons div{
+     width:50px;
+     height:50px;
+     border-radius: 50%;
+     position: relative;
+     cursor: pointer;
+ }
+
+ .social-icons div .fab{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     color: #fff;
+ }
+
+ .social-icons div.facebook{
+     background: #5178d9;
+ }
+
+ .social-icons div.twitter{
+    background: #41caf6;
 }
-.btn{
-    display: block;
-    background: #0088ae;
-    padding: 14px 0;
-    color: white;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin-top: 8px;
-    width: 100%;
+.social-icons div.google{
+    background: #fb4f4f;
 }
