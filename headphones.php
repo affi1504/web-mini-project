@@ -24,7 +24,7 @@
 
           </ul>
                 </div>
-            </div>  
+            </div>
             <section class="section-a">
                 <div class="container">
                     <div>

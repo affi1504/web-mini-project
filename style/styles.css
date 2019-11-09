@@ -33,6 +33,7 @@ ul{
 
 img{
     width: 100%;
+    animation: FadeIn 2s;
 }
 
 .section-a{
@@ -42,33 +43,36 @@ img{
 .section-a .container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 3rem;
+    grid-gap: 20rem;
     align-items: center;
     justify-content: center;
 }
 
 .section-a h1{
+    animation: FadeIn 2s;
     font-size: 4rem;
     color: var(--primary-color);
 }
 
 .section-a p{
     margin: 1rem;
+    animation: FadeIn 2s;
 }
 
 .btn1{
+    animation: FadeIn 2s;
     display: inline-block;
-    background: var(--primary-color);
-    color: #fff;
+    color: #000;
     padding: 0.6rem 1rem;
-    border: none;
+    border: 1px solid #000;
     cursor: pointer;
     font-size: 1.1rem;
-    border-radius: 30px;
+    transition:0.5s;
 }
 
 .btn1:hover{
-    background: var(--secondary-color);
+    background: #000;
+    color:#fff;
 }
 
 .section-b{
@@ -98,7 +102,7 @@ img{
 .section-c .container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 3rem;
+    grid-gap: 10rem;
     align-items: center;
     justify-content: center;
 }
@@ -141,6 +145,15 @@ img{
   .section-footer a > i {
     color: #000;
     margin-right: 0.5rem;
+  }
+
+  @keyframes FadeIn{
+      from{
+          opacity: 0;
+      }
+      to{
+          opacity: 1;
+      }
   }
 
 
@@ -188,15 +201,6 @@ img{
     resize: none;
 }
 
-.btn{
-    
-   
-  
-  
-   
-  
- 
-}
 .btn input{
     background:#827ffe;
     width: 100%;

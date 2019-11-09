@@ -50,7 +50,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
                 <a href="" class="btn1">read more</a>
             </div>
-                <img src="images/headphone1.jpg" alt="">    
+                <img src="images/headphone1.png" alt="">    
         </div>
     </section>
 
