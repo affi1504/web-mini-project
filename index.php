@@ -21,8 +21,11 @@
               <li><a href="speakers.php" class="btn-glow"><span></span><span></span><span></span><span></span>speakers</a></li>
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
-
           </ul>
+          <div class="nav-icons">
+          <i class="fas fa-shopping-cart"></i>
+          </div>
+          
       </div>
   </div>  
 
@@ -59,7 +62,7 @@
                 <div>
                     <h1>Technologies never seen before</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                    <a href="" class="btn1">read more</a>
+                    <a href="" class="btn2">read more</a>
                 </div>
                     <img src="images/speakers.png" alt="">    
             </div>
@@ -76,7 +79,7 @@
                       <i class="fab fa-facebook fa-2x"></i>
                     </a>
                     <a href="http://youtube.com">
-                      <i class="fab fa-youtube fa-2x"></i>
+                      <i class="fab fa-google-plus fa-2x"></i>
                     </a>
                   </div>
                   <div>
