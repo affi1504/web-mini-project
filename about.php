@@ -8,7 +8,6 @@
     <script src="https://kit.fontawesome.com/957812a91c.js"></script>
     <link rel="stylesheet" href="style\styles.css">
     <link rel="stylesheet" href="style\navbar.css">
-    <link rel="stylesheet" href="style\about.css">
     <title>ALTA-products of the future</title>
 </head>
 <body>
@@ -25,11 +24,22 @@
 
             </ul>
               </div>
-        </div>  
+        </div>
+<section class="section-a">
+    <div class="container">
+        <div>
+            <h1>Phones of the future </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
+            <a href="" class="btn1">read more</a>
+        </div>
+            <img src="images/iphone.jpg" alt="">    
+    </div>
+</section>  
+
      <div class="Parallax">
      <ul class="par">
      <li><a href="#Story">Story</a></li>
-     <li><a href="#Co-branding">Co-branding</li>
+     <li><a href="#Co-branding">Co-branding</a></li>
      <li><a href="#Events">Events</a></li>
      <li><a href="#News">News</a></li>
      <li><a href="#Activities">Activities</a></li>

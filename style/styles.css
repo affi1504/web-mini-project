@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Catamaran',sans-serif;
@@ -185,6 +188,67 @@ img{
           opacity: 1;
       }
   }
+
+
+
+
+  .Parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #111;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+}
+.par{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.par li a{
+    padding:5px 20px;
+    margin:20px;
+    color: #999;
+}
+
+.par li a:hover{
+    color: #eee;
+}
+
+.story-area, .CoBranding-area, .Events-area, .news-area, .activities-area{
+    
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+.story-area{
+    background: #000;
+    color:#fff;
+}
+.CoBranding-area{
+    background: palegreen;
+}
+.Events-area{
+    background: peru;
+}
+.news-area{
+    background: plum;
+}
+.activities-area{
+    background: purple;
+}
 
 
 
