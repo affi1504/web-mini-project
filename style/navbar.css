@@ -25,14 +25,16 @@
 }
 .navbar .container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     padding:0.5rem 0.5rem 0 0.5rem;
 }
 
 .logo{
     font-size: 2rem;
     color: #000 ;
+    margin-left:2rem;
 }
+
 
 .selected{
     color: #fff;

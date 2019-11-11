@@ -43,7 +43,7 @@ img{
 .section-a .container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 20rem;
+    grid-gap: 15rem;
     align-items: center;
     justify-content: center;
 }
@@ -73,6 +73,24 @@ img{
 .btn1:hover{
     box-shadow:inset 110px 0 0 0 #000;
     color: #fff;
+
+}
+
+.btn2{
+    animation: FadeIn 2s;
+    display: inline-block;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #fff;
+    background:#111;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition:0.5s;
+}
+
+.btn2:hover{
+    box-shadow:inset 110px 0 0 0 #fff;
+    color: #000;
 
 }
 
@@ -148,6 +166,17 @@ img{
     margin-right: 0.5rem;
   }
 
+  .section-footer .container a .fa-facebook{
+    color: #5178d9;
+}
+
+.section-footer .container a .fa-twitter{
+   color: #41caf6;
+}
+.section-footer .container a .fa-google-plus{
+   color: #fb4f4f;
+}
+
   @keyframes FadeIn{
       from{
           opacity: 0;
@@ -161,7 +190,7 @@ img{
 
 
 
-
+/* form */
 
 .contact-us{
     width: 400px;
