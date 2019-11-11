@@ -224,13 +224,11 @@ img{
 .story-area, .CoBranding-area, .Events-area, .news-area, .activities-area{
     
     position: relative;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 100vw;
     height: 100vh;
 }
 .story-area{
@@ -248,6 +246,29 @@ img{
 }
 .activities-area{
     background: purple;
+}
+
+
+.story-container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:4rem;
+}
+
+
+.story-box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #ebeef1;
+    box-shadow:  0 0 40px rgba(211, 211, 211, 0.2);
+    color:#000;
+}
+
+.story-box:hover{
+    background: #000;
+    transition:0.3s;
 }
 
 

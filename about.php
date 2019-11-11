@@ -46,11 +46,13 @@
      </ul>
 </div>
 <div class="story-area" id="Story">
-    <div class="text-part">
-      <h1>Story</h1>
+<div class="story-container"> 
+        <div class="story-box"></div>
+        <div class="story-box">    </div> 
+           <div class="story-box">    </div>
+</div>
 </div>
 
-</div>
 <div class="CoBranding-area" id="Co-branding">
 <div class="text-part">
       <h1>Co-branding</h1>
