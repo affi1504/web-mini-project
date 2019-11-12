@@ -21,9 +21,11 @@
               <li><a href="speakers.php" class="btn-glow"><span></span><span></span><span></span><span></span>speakers</a></li>
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
-
           </ul>
-                </div>
+          <div class="nav-icons">
+          <a href="cart.php"><i class="fas fa-cart-arrow-down"></i></a>
+          </div>
+         </div>   
             </div>
             <section class="section-a">
                 <div class="container">

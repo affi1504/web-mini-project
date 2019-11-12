@@ -22,9 +22,12 @@
               <li><a href="speakers.php" class="btn-glow"><span></span><span></span><span></span><span></span>speakers</a></li>
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="" class="selected btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
-
           </ul>
+          <div class="nav-icons">
+          <a href="cart.php"><i class="fas fa-cart-arrow-down"></i></a>
+          </div>
         </div>
+       
     </div>
 
     <div class="contact-us">
@@ -47,7 +50,7 @@
             </div>
 
             <div class="form-items">
-                <textarea class="input message" cols="30" rows="10" placeholder="message......"></textarea>
+                <textarea class="input message" cols="30" rows="10" placeholder="Message..."></textarea>
             </div>
         </div>
        

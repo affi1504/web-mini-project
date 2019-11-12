@@ -23,9 +23,8 @@
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
           <div class="nav-icons">
-          <i class="fas fa-shopping-cart"></i>
+          <a href="cart.php"><i class="fas fa-cart-arrow-down"></i></a>
           </div>
-          
       </div>
   </div>  
 

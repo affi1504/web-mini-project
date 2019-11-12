@@ -193,7 +193,6 @@ img{
 
 
   .Parallax{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,7 +212,7 @@ img{
 
 .par li a{
     padding:5px 20px;
-    margin:20px;
+    margin:50px;
     color: #999;
 }
 
@@ -221,7 +220,7 @@ img{
     color: #eee;
 }
 
-.story-area, .CoBranding-area, .Events-area, .news-area, .activities-area{
+.story-area, .Events-area, .activities-area{
     
     position: relative;
     display: flex;
@@ -235,17 +234,12 @@ img{
     background: #000;
     color:#fff;
 }
-.CoBranding-area{
-    background: palegreen;
-}
+
 .Events-area{
-    background: peru;
-}
-.news-area{
-    background: plum;
+    background: #555;
 }
 .activities-area{
-    background: purple;
+    background: #333;
 }
 
 
@@ -253,22 +247,30 @@ img{
     position: relative;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap:4rem;
+    grid-gap:2px;
 }
 
 
 .story-box{
     position: relative;
-    width: 300px;
-    height: 400px;
-    background: #ebeef1;
-    box-shadow:  0 0 40px rgba(211, 211, 211, 0.2);
+    width: 33vw;
+    height: 100vh;
+    background: #000;
     color:#000;
+    align-items: center;
+    justify-content: center;
+}
+.story-box h2{
+    position: absolute;
+top:40%;
+left:25%;
+    font-size: 2rem;
 }
 
 .story-box:hover{
-    background: #000;
-    transition:0.3s;
+    background: #333;
+    color: #fff;
+    transition:0.5s;
 }
 
 
@@ -282,6 +284,7 @@ img{
     background: #fff;
     padding: 50px;
     margin: 100px auto;
+    box-shadow: 0 0 40px rgba(0,0,0,0.7);
     border-radius: 30px;
     position: relative;
 }
@@ -317,7 +320,7 @@ img{
 }
 
 .btn input{
-    background:#827ffe;
+    background:#000;
     width: 100%;
     padding: 12px;
     color:#fff;
@@ -348,7 +351,7 @@ img{
      position: absolute;
      top: 15px;
      left: 15px;
-     color: #9a99aa;
+     color: #999;
  }
 
  .social-icons{

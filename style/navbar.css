@@ -29,10 +29,19 @@
     padding:0.5rem 0.5rem 0 0.5rem;
 }
 
+
 .logo{
     font-size: 2rem;
     color: #000 ;
     margin-left:2rem;
+}
+
+i.fas.fa-cart-arrow-down{
+padding:5px;
+margin-top:2px;
+margin-left:50px;
+font-size:1.5rem;
+cursor:pointer;
 }
 
 

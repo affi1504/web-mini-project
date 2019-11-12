@@ -21,51 +21,39 @@
               <li><a href="speakers.php" class="btn-glow"><span></span><span></span><span></span><span></span>speakers</a></li>
               <li><a href="" class="selected btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
-
             </ul>
-              </div>
+            <div class="nav-icons">
+          <a href="cart.php"><i class="fas fa-cart-arrow-down"></i></a>
+          </div>
+              </div>      
         </div>
-<section class="section-a">
-    <div class="container">
-        <div>
-            <h1>Phones of the future </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-            <a href="" class="btn1">read more</a>
-        </div>
-            <img src="images/iphone.jpg" alt="">    
-    </div>
-</section>  
+
 
      <div class="Parallax">
      <ul class="par">
      <li><a href="#Story">Story</a></li>
-     <li><a href="#Co-branding">Co-branding</a></li>
      <li><a href="#Events">Events</a></li>
-     <li><a href="#News">News</a></li>
      <li><a href="#Activities">Activities</a></li>
      </ul>
 </div>
 <div class="story-area" id="Story">
 <div class="story-container"> 
-        <div class="story-box"></div>
-        <div class="story-box">    </div> 
-           <div class="story-box">    </div>
+        <div class="story-box">
+              <h2>this is a story</h2>
+
+        </div>
+        <div class="story-box">
+        <h2>this is a story</h2>  
+                </div> 
+           <div class="story-box">
+           <h2>this is a story</h2>
+                     </div>
 </div>
 </div>
 
-<div class="CoBranding-area" id="Co-branding">
-<div class="text-part">
-      <h1>Co-branding</h1>
-</div>
-</div>
 <div class="Events-area" id="Events">
 <div class="text-part">
       <h1>Events</h1>
-</div>
-</div>
-<div class="news-area" id="News">
-<div class="text-part">
-      <h1>News</h1>
 </div>
 </div>
 <div class="activities-area" id="Activities">
