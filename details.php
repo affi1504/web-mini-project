@@ -15,7 +15,7 @@
       <div class="container">
           <h1 class="logo">ALTA</h1>
           <ul class="nav">
-              <li><a href="" class="selected btn-glow"><span></span><span></span><span></span><span></span> home</a></li>
+              <li><a href="index.php" class="btn-glow"><span></span><span></span><span></span><span></span> home</a></li>
               <li><a href="phones.php" class="btn-glow"><span></span><span></span><span></span><span></span>phones</a></li>
               <li><a href="headphones.php" class="btn-glow"><span></span><span></span><span></span><span></span>headphones</a></li>
               <li><a href="speakers.php" class="btn-glow"><span></span><span></span><span></span><span></span>speakers</a></li>
@@ -23,49 +23,47 @@
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
           <div class="nav-icons">
-          <a href="cart.php">cart</a>
+          <a href="cart.php"><i class="fas fa-cart-arrow-down"></i></a>
           </div>
       </div>
-  </div>  
+  </div>
 
-<section class="section-a">
-    <div class="container">
-        <div>
-            <h1>Phones of the future </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-            <a href="details.php?name=iphone6s" class="btn1">read more</a>
-        </div>
-            <img src="images/iphone.jpg" alt="">    
-    </div>
-</section>
+  <div class="item-container">
+  <div class="item-holder">
+<div class="item-card">
+    <img src="images/iphone.jpg" alt="">
+</div>
+<div class="item-details">
+    <h3>iphone 6s (jet black)</h3>
+    <ul>
+        <li>4.7 inch retina-HD display</li>
+        <li>2 GB RAM</li>
+        <li>12MP rear camera</li>
+        <li>5MP front camera</li>
+    </ul>
+<a href="" class="btn-cart">add to cart</a>
+</div>
 
-<section class="section-b">
-    <video autoplay loop class="video-phone" muted >
-<source src="video/iphone.mkv" type="video/mp4">
-    </video>
-</section>
+  </div>
+  <div class="item-description">
+      <br>
+      <h3>Description</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quo aut rerum placeat iusto eligendi modi porro error. Reprehenderit, vel eligendi excepturi sunt rerum impedit quos aliquam amet modi. Earum provident placeat reiciendis incidunt, velit illo cupiditate ut magni eaque molestiae tenetur facere dolores libero veritatis laudantium error minima amet.</p>
+     <br>
+      <h3>Description</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quo aut rerum placeat iusto eligendi modi porro error. Reprehenderit, vel eligendi excepturi sunt rerum impedit quos aliquam amet modi. Earum provident placeat reiciendis incidunt, velit illo cupiditate ut magni eaque molestiae tenetur facere dolores libero veritatis laudantium error minima amet.</p>
+     <br>
+      <h3>Description</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quo aut rerum placeat iusto eligendi modi porro error. Reprehenderit, vel eligendi excepturi sunt rerum impedit quos aliquam amet modi. Earum provident placeat reiciendis incidunt, velit illo cupiditate ut magni eaque molestiae tenetur facere dolores libero veritatis laudantium error minima amet.</p>
 
-<section class="section-a">
-        <div class="container">
-            <div>
-                <h1>User Experience is our prioriy</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                <a href="details.php?name=beatsheadphones" class="btn1">read more</a>
-            </div>
-                <img src="images/headphone1.png" alt="">    
-        </div>
-    </section>
+  </div>
+  
+  
+  </div>
 
-    <section class="section-c">
-            <div class="container">
-                <div>
-                    <h1>Technologies never seen before</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                    <a href="" class="btn2">read more</a>
-                </div>
-                    <img src="images/speakers.png" alt="">    
-            </div>
-        </section>
+
+
+
 
         <footer class="section-footer py-4 bg-primary">
                 <div class="container">

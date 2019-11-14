@@ -35,6 +35,11 @@
     color: #000 ;
     margin-left:2rem;
 }
+.nav-icons a{
+    font: 1rem;
+    text-decoration: none;
+    color: #000;
+}
 
 i.fas.fa-cart-arrow-down{
 padding:5px;

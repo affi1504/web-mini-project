@@ -61,5 +61,41 @@
       <h1>Activities</h1>
 </div>
 </div>
+
+<footer class="section-footer py-4 bg-primary">
+                <div class="container">
+                  <div>
+                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+                    <a href="http://twitter.com">
+                      <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="http://facebook.com">
+                      <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="http://youtube.com">
+                      <i class="fab fa-google-plus fa-2x"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <h3>Company Info</h3>
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Blog Posts</h3>
+                    <ul>
+                      <li><a href="#">Lorem ipsum dolor.</a></li>
+                      <li><a href="#">Lorem ipsum dolor.</a></li>
+                      <li><a href="#">Lorem ipsum dolor.</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+              </footer>
+
+
 </body>
 </html>
