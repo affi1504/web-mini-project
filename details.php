@@ -1,3 +1,8 @@
+<?php 
+include("config.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,6 +38,12 @@
 <div class="item-card">
     <img src="images/iphone.jpg" alt="">
 </div>
+<?php
+
+
+
+
+?>
 <div class="item-details">
     <h3>iphone 6s (jet black)</h3>
     <ul>

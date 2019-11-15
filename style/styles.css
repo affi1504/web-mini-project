@@ -117,8 +117,8 @@ img{
 .section-c{
     margin: 1rem 0;;
     background: #111;
-    padding: 5rem 0;
-    height: 80vh;
+    padding: 6rem 0;
+    height: 60vh;
 }
 
 .section-c .container{
@@ -130,7 +130,7 @@ img{
 }
 
 .section-c h1{
-    font-size: 3rem;
+    font-size: 4rem;
     color: #fff;
 }
 
