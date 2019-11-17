@@ -27,7 +27,17 @@
           </div>
                 </div>
               
-            </div>  
+            </div>
+            <section class="section-c">
+                        <div class="container">
+                            <div>
+                                <h1>Phones of the future </h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
+                                <a href="" class="btn2">read more</a>
+                            </div>
+                                <img src="images/iphone2.png" alt="">    
+                        </div>
+                    </section>  
             <section class="section-a">
                     <div class="container">
                         <div>
@@ -38,26 +48,53 @@
                             <img src="images/iphone4.jpg" alt="">    
                     </div>
                 </section>
-                <section class="section-a">
-                        <div class="container">
-                            <div>
-                                <h1>Phones of the future </h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                                <a href="" class="btn1">read more</a>
-                            </div>
-                                <img src="images/iphone2.png" alt="">    
-                        </div>
-                    </section>
-                    <section class="section-a">
+               
+                    <section class="section-c">
                             <div class="container">
                                 <div>
                                     <h1>Phones of the future </h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                                    <a href="" class="btn1">read more</a>
+                                    <a href="" class="btn2">read more</a>
                                 </div>
                                     <img src="images/iphone3.png" alt="">    
                             </div>
                         </section>
+
+
+                        <footer class="section-footer py-4 bg-primary">
+                <div class="container">
+                  <div>
+                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+                    <a href="http://twitter.com">
+                      <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                    <a href="http://facebook.com">
+                      <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="http://youtube.com">
+                      <i class="fab fa-google-plus fa-2x"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <h3>Company Info</h3>
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>Blog Posts</h3>
+                    <ul>
+                      <li><a href="#">Lorem ipsum dolor.</a></li>
+                      <li><a href="#">Lorem ipsum dolor.</a></li>
+                      <li><a href="#">Lorem ipsum dolor.</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+              </footer>
+
 
                         
 

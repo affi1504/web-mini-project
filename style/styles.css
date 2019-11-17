@@ -40,13 +40,13 @@ img{
 }
 
 .section-a{
-    margin: 2rem 0;
+    padding: 2rem 0;
 }
 
 .section-a .container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 15rem;
+    grid-gap: 20rem;
     align-items: center;
     justify-content: center;
 }
@@ -95,6 +95,7 @@ img{
     box-shadow:inset 110px 0 0 0 #fff;
     color: #000;
 
+
 }
 
 .section-b{
@@ -115,16 +116,15 @@ img{
 
 
 .section-c{
-    margin: 1rem 0;;
+    margin-top:2px;
     background: #111;
-    padding: 6rem 0;
-    height: 60vh;
+  padding: 2rem 0;
 }
 
 .section-c .container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 5rem;
+    grid-gap: 10rem;
     align-items: center;
     justify-content: center;
 }
@@ -276,12 +276,13 @@ left:25%;
 /*details*/
 
 .item-container{
-    width: 100vw;
+    width: 98.9vw;
+    background: #fff;
 }
 
 .item-container .item-holder{
-    width:100vw;
-    height:60vh;
+    width:90vw;
+    height:40vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
    
@@ -292,8 +293,8 @@ left:25%;
     width:20vw;
     margin-left:350px;
     margin-top:20px;
-    margin-bottom:20px;
-    border: solid 1px #000;
+    margin-bottom:40px;
+    border: solid 1px #ddd;
 }
 
 .item-card img{
@@ -305,7 +306,7 @@ left:25%;
 
 .item-details{
     padding:30px;
-    width:60vh;
+    width:40vh;
     margin-top:20px;
     margin-bottom:20px;
 }
@@ -318,24 +319,31 @@ left:25%;
 }
 
 .item-details li{
-    padding: 2px;
+    padding: 5px;
 }
 
 .btn-cart{
-    animation: FadeIn 2s;
+    position: relative;
+    margin-left: 30px;
+    padding: 5px 15px;
     display: inline-block;
-    color: #000;
-    padding: 0.4rem 0.8rem;
-    border: 1px solid #000;
-    cursor: pointer;
-    font-size: 1.1rem;
-    margin-left:30px;
-    transition:0.5s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: #f62f5e;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #f62f5e;
+    font-size: 12px;
+    overflow: hidden;
+    transition: 0.2s;
 }
 
 .btn-cart:hover{
-    box-shadow:inset 110px 0 0 0 rgb(0, 0, 0);
     color: #fff;
+    background: #000;
+    box-shadow: 0 0 5px #f62f5e, 0 0 5px #f62f5e, 0 0 5px #f62f5e;
+    transition-delay: 0.2s;
 
 }
 
