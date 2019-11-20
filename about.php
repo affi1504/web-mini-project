@@ -39,26 +39,28 @@
 <div class="story-area" id="Story">
 <div class="story-container"> 
         <div class="story-box">
-              <h2>this is a story</h2>
-
+              <img src="images\people1.jpg" alt="">
+              <p>best performance</p>
         </div>
         <div class="story-box">
-        <h2>this is a story</h2>  
+        <img src="images\people4.jpg" alt="">
+        <p>latest technology</p>
                 </div> 
            <div class="story-box">
-           <h2>this is a story</h2>
+           <img src="images\people5.jpg" alt="">
+           <p> elegant design</p>
                      </div>
 </div>
 </div>
 
 <div class="Events-area" id="Events">
 <div class="text-part">
-      <h1>Events</h1>
+<!-- <img src="images\people2.jpg" alt=""> -->
 </div>
 </div>
 <div class="activities-area" id="Activities">
 <div class="text-part">
-      <h1>Activities</h1>
+<!-- <img src="images\people3.jpg" alt=""> -->
 </div>
 </div>
 

@@ -1,5 +1,8 @@
 <?php 
 include("config.php");
+
+if(isset($_GET['name'])){
+  $name = $_GET['name'];
 ?>
 
 
@@ -35,41 +38,32 @@ include("config.php");
 
   <div class="item-container">
   <div class="item-holder">
-<div class="item-card">
-    <img src="images/iphone.jpg" alt="">
-</div>
-<?php
-
-
-
+  <?php
+    $sql = "SELECT * FROM details where name='{$name}'";
+    $result = mysqli_query($db, $sql);
+if(mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_assoc($result)) {
 
 ?>
+<div class="item-card">
+    <img src="<?php  echo $row['img_url']; ?>" alt="">
+</div>
+
 <div class="item-details">
-    <h3>iphone 6s (jet black)</h3>
+    <h3><?php echo $row['name'];?></h3>
+    <p><?php echo $row['price'] ?></p>
     <ul>
-        <li>4.7 inch retina-HD display</li>
-        <li>2 GB RAM</li>
-        <li>12MP rear camera</li>
-        <li>5MP front camera</li>
+        <li><?php echo $row['features'];  ?></li>
     </ul>
 <a href="" class="btn-cart">add to cart</a>
 </div>
-
   </div>
+  <br><br><br><br><br>
   <div class="item-description">
       <br>
       <h3>Description</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quo aut rerum placeat iusto eligendi modi porro error. Reprehenderit, vel eligendi excepturi sunt rerum impedit quos aliquam amet modi. Earum provident placeat reiciendis incidunt, velit illo cupiditate ut magni eaque molestiae tenetur facere dolores libero veritatis laudantium error minima amet.</p>
-     <br>
-      <h3>Description</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quo aut rerum placeat iusto eligendi modi porro error. Reprehenderit, vel eligendi excepturi sunt rerum impedit quos aliquam amet modi. Earum provident placeat reiciendis incidunt, velit illo cupiditate ut magni eaque molestiae tenetur facere dolores libero veritatis laudantium error minima amet.</p>
-     <br>
-      <h3>Description</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt quo aut rerum placeat iusto eligendi modi porro error. Reprehenderit, vel eligendi excepturi sunt rerum impedit quos aliquam amet modi. Earum provident placeat reiciendis incidunt, velit illo cupiditate ut magni eaque molestiae tenetur facere dolores libero veritatis laudantium error minima amet.</p>
-
+      <p><?php echo $row['description']; }}}   ?></p>
   </div>
-  
-  
   </div>
 
 

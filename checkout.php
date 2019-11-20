@@ -43,9 +43,9 @@ $('.next-btn').on('click', function(e) {
  
     <div class="progress-bar">
       <div class="step active"></div>
-      <div class="step active "></div>
+      <div class="step active"></div>
       <div class="step "></div>
-      <div class="step  "></div>
+      <div class="step "></div>
     </div>
  
     <div class="input-fields">
@@ -73,13 +73,30 @@ $('.next-btn').on('click', function(e) {
         <span class="info">* CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
   </div>
+
+
+
+
+  
  
   <div class="panel-footer">
     <a href="index.php" class="btn back-btn"> home</a>
     <a class="btn next-btn">back</a>
     <a class="btn next-btn">Next Step</a>
   </div>
+
+
 </div>
 </body>
 </html>

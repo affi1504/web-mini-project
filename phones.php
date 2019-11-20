@@ -31,9 +31,9 @@
             <section class="section-c">
                         <div class="container">
                             <div>
-                                <h1>Phones of the future </h1>
+                                <h1>Introducing Liquid Retina</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                                <a href="" class="btn2">read more</a>
+                                <a href="details.php?name=iphoneXR" class="btn2">read more</a>
                             </div>
                                 <img src="images/iphone2.png" alt="">    
                         </div>
@@ -41,7 +41,7 @@
             <section class="section-a">
                     <div class="container">
                         <div>
-                            <h1>Phones of the future </h1>
+                            <h1>Intelligent and fast processor</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
                             <a href="" class="btn1">read more</a>
                         </div>
@@ -52,7 +52,7 @@
                     <section class="section-c">
                             <div class="container">
                                 <div>
-                                    <h1>Phones of the future </h1>
+                                    <h1>Breakthrough camera system </h1>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
                                     <a href="" class="btn2">read more</a>
                                 </div>

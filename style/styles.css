@@ -259,18 +259,31 @@ img{
     color:#000;
     align-items: center;
     justify-content: center;
-}
-.story-box h2{
-    position: absolute;
-top:40%;
-left:25%;
-    font-size: 2rem;
+
+
 }
 
-.story-box:hover{
-    background: #333;
-    color: #fff;
-    transition:0.5s;
+.story-box img{
+    opacity: 0.05;
+}
+
+.story-box p{
+position: absolute;
+top: 70%;
+left:15%;
+ font-size: 2.3rem;
+text-transform: uppercase;
+ letter-spacing: 3px;
+ color: #fff;
+ z-index: 3;
+
+}
+
+
+.story-box img:hover{
+    opacity: 1.0;
+    transition:0.4s;
+    
 }
 
 /*details*/
@@ -314,6 +327,14 @@ left:25%;
 .item-details h3{
     font-size: 1.8rem;
 }
+
+.item-details p{
+    margin-left:10px;
+    font-size: 1.6rem;
+    color: rgb(201, 5, 5);
+}
+
+
 .item-details ul{
     padding:20px;
 }

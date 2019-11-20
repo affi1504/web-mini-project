@@ -48,7 +48,7 @@
 <section class="section-a">
         <div class="container">
             <div>
-                <h1>User Experience is our prioriy</h1>
+                <h1>Brilliant.In every way.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
                 <a href="details.php?name=beatsheadphones" class="btn1">read more</a>
             </div>
