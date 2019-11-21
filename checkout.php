@@ -7,34 +7,7 @@
     <script src="https://kit.fontawesome.com/957812a91c.js"></script>
     <link rel="stylesheet" href="style\navbar.css">
     <link rel="stylesheet" href="style\checkout.css">
-    <title>ALTA-products of the future</title>
-    <script>
-
-    $(document).ready(function() {
- 
-  $('.method').on('click', function() {
-    $('.method').removeClass('blue-border');
-    $(this).addClass('blue-border');
-  });
- 
-})
-
-var $cardInput = $('.input-fields input');
- 
-$('.next-btn').on('click', function(e) {
- 
-  $cardInput.removeClass('warning');
- 
-  $cardInput.each(function() {    
-     var $this = $(this);
-     if (!$this.val()) {
-       $this.addClass('warning');
-     }
-  })
-});
-    
-    </script>
-    <title>Document</title>
+    <title>TECHNIA-a whole new technology</title>
 </head>
 <body class="body">
 <div class="checkout-panel">

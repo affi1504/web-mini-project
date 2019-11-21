@@ -31,16 +31,24 @@
     padding:0.5rem 0.5rem 0 0.5rem;
 }
 
-
 .logo{
+    text-transform: uppercase;
     font-size: 2rem;
-    color: #000 ;
+    color: #f62f5e ;
     margin-left:2rem;
 }
+
 .nav-icons a{
     font: 1rem;
     text-decoration: none;
     color: #000;
+}
+
+.nav-icons a img{
+    width: 32px;
+    height: 32px;
+    margin-top: 3px;
+    margin-left: 200px;
 }
 
 i.fas.fa-cart-arrow-down{

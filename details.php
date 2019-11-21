@@ -1,8 +1,5 @@
 <?php 
 include("config.php");
-
-if(isset($_GET['name'])){
-  $name = $_GET['name'];
 ?>
 
 
@@ -16,12 +13,12 @@ if(isset($_GET['name'])){
     <script src="https://kit.fontawesome.com/957812a91c.js"></script>
     <link rel="stylesheet" href="style\styles.css">
     <link rel="stylesheet" href="style\navbar.css">
-    <title>ALTA-products of the future</title>
+    <title>TECHNIA-a whole new technology</title>
 </head>
 <body id="home">
   <div class="navbar">
       <div class="container">
-          <h1 class="logo">ALTA</h1>
+        <a href="index.php"> <h1 class="logo">technia</h1></a> 
           <ul class="nav">
               <li><a href="index.php" class="btn-glow"><span></span><span></span><span></span><span></span> home</a></li>
               <li><a href="phones.php" class="btn-glow"><span></span><span></span><span></span><span></span>phones</a></li>
@@ -31,80 +28,27 @@ if(isset($_GET['name'])){
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
           <div class="nav-icons">
-          <a href="cart.php"><i class="fas fa-cart-arrow-down"></i></a>
+          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
           </div>
       </div>
   </div>
-
-  <div class="item-container">
-  <div class="item-holder">
-  <?php
-    $sql = "SELECT * FROM details where name='{$name}'";
-    $result = mysqli_query($db, $sql);
-if(mysqli_num_rows($result) > 0) {
-    while($row = mysqli_fetch_assoc($result)) {
-
-?>
-<div class="item-card">
-    <img src="<?php  echo $row['img_url']; ?>" alt="">
-</div>
-
-<div class="item-details">
-    <h3><?php echo $row['name'];?></h3>
-    <p><?php echo $row['price'] ?></p>
-    <ul>
-        <li><?php echo $row['features'];  ?></li>
-    </ul>
-<a href="" class="btn-cart">add to cart</a>
-</div>
-  </div>
-  <br><br><br><br><br>
-  <div class="item-description">
-      <br>
-      <h3>Description</h3>
-      <p><?php echo $row['description']; }}}   ?></p>
-  </div>
-  </div>
-
-
-
-
-
-        <footer class="section-footer py-4 bg-primary">
-                <div class="container">
-                  <div>
-                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
-                    <a href="http://twitter.com">
-                      <i class="fab fa-twitter fa-2x"></i>
-                    </a>
-                    <a href="http://facebook.com">
-                      <i class="fab fa-facebook fa-2x"></i>
-                    </a>
-                    <a href="http://youtube.com">
-                      <i class="fab fa-google-plus fa-2x"></i>
-                    </a>
-                  </div>
-                  <div>
-                    <h3>Company Info</h3>
-                    <ul>
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Terms of Service</a></li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h3>Blog Posts</h3>
-                    <ul>
-                      <li><a href="#">Lorem ipsum dolor.</a></li>
-                      <li><a href="#">Lorem ipsum dolor.</a></li>
-                      <li><a href="#">Lorem ipsum dolor.</a></li>
-                    </ul>
-                  </div>
-
-                </div>
-              </footer>
-
-    
+<div class="details-body">
+  <div class="details-container">
+        <div class="details-img-box">
+            <img src="images\speaker1.png" alt="">
+        </div>
+        <div class="details-text-box">
+            <h1>iPhone-6S</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique est sunt repellendus, quos laborum nulla labore
+                ucimus dolore ratione dolor eaque repudiandae incidunt doloribus fugit animi quaerat cumque voluptatem obcaecati sed 
+                ssitatibus, quo itaque, a aspernatur. Aspernatur, hic, doloremque eos laboriosam quas minima sunt cum neque, libero 
+                dolorem ratione magnam.</p>
+                <h2>23999/-</h2>
+                <a href="index.php" class="cart-btn"> add to cart</a>
+                <a href="index.php" class="buy-btn"> buy now</a>
+        </div>
+    </div>
+    </div>
 
 </body>
 </html>

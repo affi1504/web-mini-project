@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/957812a91c.js"></script>
-    <link rel="stylesheet" href="style\cantact.css">
     <link rel="stylesheet" href="style\styles.css">
     <link rel="stylesheet" href="style\navbar.css">
-    <title>ALTA-products of the future</title>
+    <title>TECHNIA-a whole new technology</title>
 </head>
-<body>
-        <div class="navbar">
-                <div class="container">
-                    <h1 class="logo">ALTA</h1>
+<body id="home">
+  <div class="navbar">
+      <div class="container">
+        <a href="index.php"> <h1 class="logo">technia</h1></a> 
                     <ul class="nav">
               <li><a href="index.php" class="btn-glow"><span></span><span></span><span></span><span></span> home</a></li>
               <li><a href="phones.php" class="btn-glow"><span></span><span></span><span></span><span></span>phones</a></li>
@@ -24,7 +23,7 @@
               <li><a href="" class="selected btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
           <div class="nav-icons">
-          <a href="cart.php"><i class="fas fa-cart-arrow-down"></i></a>
+          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
           </div>
         </div>
        
@@ -53,20 +52,16 @@
                 <textarea class="input message" cols="30" rows="10" placeholder="Message..."></textarea>
             </div>
         </div>
-       
-        <div class="btn">
-        <input type="submit" value="submit">
-        <i class="fas fa-arrow-right"> </i>
-        </div>
+        <input type="submit" class="contact-btn" value="submit">
 
         </form>
 
         <div class="social-icons">
-        <a href="https:\\www.facebook.com"> <div class="facebook"> <i class="fab fa-facebook-f"></i> </div></a>
+        <a href="https:\\www.facebook.com"> <div class="facebook"> <img src="icons\facebook-logo.png" class="fab fa-facebook-f"> </div></a>
 
-         <a href="https:\\www.twitter.com"> <div class="twitter"> <i class="fab fa-twitter"></i></div></a>
+         <a href="https:\\www.twitter.com"> <div class="twitter"> <img src="icons\twitter.png" class="fab fa-twitter"></div></a>
 
-        <a href="https:\\www.google.com"> <div class="google"><i class="fab fa-google-plus-g"></i> </div></a>
+        <a href="https:\\www.google.com"> <div class="google"><img src="icons\google-plus.png" class="fab fa-google-plus-g"> </div></a>
         </div>
 
     </div>

@@ -8,12 +8,12 @@
     <script src="https://kit.fontawesome.com/957812a91c.js"></script>
     <link rel="stylesheet" href="style\styles.css">
     <link rel="stylesheet" href="style\navbar.css">
-    <title>ALTA-products of the future</title>
+    <title>TECHNIA-a whole new technology</title>
 </head>
-<body>
-        <div class="navbar">
-                <div class="container">
-                    <h1 class="logo">ALTA</h1>
+<body id="home">
+  <div class="navbar">
+      <div class="container">
+        <a href="index.php"> <h1 class="logo">technia</h1></a> 
                     <ul class="nav">
               <li><a href="index.php" class="btn-glow"><span></span><span></span><span></span><span></span> home</a></li>
               <li><a href="phones.php" class="btn-glow"><span></span><span></span><span></span><span></span>phones</a></li>
@@ -23,7 +23,7 @@
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
             </ul>
             <div class="nav-icons">
-          <a href="cart.php"><i class="fas fa-cart-arrow-down"></i></a>
+          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
           </div>
               </div>      
         </div>
@@ -31,67 +31,67 @@
 
      <div class="Parallax">
      <ul class="par">
-     <li><a href="#Story">Story</a></li>
-     <li><a href="#Events">Events</a></li>
-     <li><a href="#Activities">Activities</a></li>
+     <li><a href="#events">Events</a></li>
+     <li><a href="#story">Stories</a></li>
+     <li><a href="#activities">Activities</a></li>
      </ul>
 </div>
-<div class="story-area" id="Story">
+
+<div class="events-area" id="events">
 <div class="story-container"> 
-        <div class="story-box">
-              <img src="images\people1.jpg" alt="">
-              <p>best performance</p>
-        </div>
-        <div class="story-box">
-        <img src="images\people4.jpg" alt="">
-        <p>latest technology</p>
-                </div> 
-           <div class="story-box">
-           <img src="images\people5.jpg" alt="">
-           <p> elegant design</p>
-                     </div>
 </div>
 </div>
 
-<div class="Events-area" id="Events">
-<div class="text-part">
-<!-- <img src="images\people2.jpg" alt=""> -->
+<div class="story-area" id="story">
+<div class="story-container"> 
+        <div class="story-box">
+              <img src="images\people1.jpg" class="story-img" alt="">
+              <p>best performance</p>
+        </div>
+        <div class="story-box">
+        <img src="images\people4.jpg" class="story-img" alt="">
+        <p>latest technology</p>
+         </div> 
+           <div class="story-box">
+           <img src="images\people5.jpg" class="story-img" alt="">
+           <p> elegant design</p>
+             </div>
 </div>
 </div>
-<div class="activities-area" id="Activities">
-<div class="text-part">
-<!-- <img src="images\people3.jpg" alt=""> -->
+<div class="activities-area" id="activities">
 </div>
 </div>
+
+
 
 <footer class="section-footer py-4 bg-primary">
                 <div class="container">
                   <div>
                     <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
-                    <a href="http://twitter.com">
-                      <i class="fab fa-twitter fa-2x"></i>
-                    </a>
                     <a href="http://facebook.com">
-                      <i class="fab fa-facebook fa-2x"></i>
+                      <img src="icons\facebook.png" alt="">
                     </a>
-                    <a href="http://youtube.com">
-                      <i class="fab fa-google-plus fa-2x"></i>
+                    <a href="http://twitter.com">
+                    <img src="icons\twitter-bird.png" alt="">
+                    </a>
+                    <a href="http://instagram.com">
+                    <img src="icons\instagram.png" alt="">
                     </a>
                   </div>
                   <div>
                     <h3>Company Info</h3>
                     <ul>
-                      <li><a href="#">About Us</a></li>
-                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="about.php">About Us</a></li>
+                      <li><a href="contact.php">contact us</a></li>
                       <li><a href="#">Terms of Service</a></li>
                     </ul>
                   </div>
                   <div>
                     <h3>Blog Posts</h3>
                     <ul>
-                      <li><a href="#">Lorem ipsum dolor.</a></li>
-                      <li><a href="#">Lorem ipsum dolor.</a></li>
-                      <li><a href="#">Lorem ipsum dolor.</a></li>
+                      <li><a href="about.php#story">user stories</a></li>
+                      <li><a href="about.php#activities">Activities</a></li>
+                      <li><a href="about.php#events">Future events</a></li>
                     </ul>
                   </div>
 

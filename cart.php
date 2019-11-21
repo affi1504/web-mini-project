@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style\bootstrap.css">
+    <!-- <link rel="stylesheet" href="style\bootstrap.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/957812a91c.js"></script>
     <link rel="stylesheet" href="style\styles.css">
     <link rel="stylesheet" href="style\navbar.css">
-    <title>ALTA-products of the future</title>
+    <title>TECHNIA-a whole new technology</title>
 </head>
-<body>
-        <div class="my-navbar">
-                <div class="my-container">
-                    <h1 class="logo">ALTA</h1>
-                    <ul class="my-nav">
+<body id="home">
+  <div class="navbar">
+      <div class="container">
+        <a href="index.php"> <h1 class="logo">technia</h1></a> 
+        <ul class="nav">
               <li><a href="index.php" class="btn-glow"><span></span><span></span><span></span><span></span> home</a></li>
-              <li><a href="phones.php" class="btn-glow"><span></span><span></span><span></span><span></span>phones</a></li>
+              <li><a href="" class="selected btn-glow"><span></span><span></span><span></span><span></span>phones</a></li>
               <li><a href="headphones.php" class="btn-glow"><span></span><span></span><span></span><span></span>headphones</a></li>
-              <li><a href="speakers.php" class=" btn-glow"><span></span><span></span><span></span><span></span>speakers</a></li>
+              <li><a href="speakers.php" class="btn-glow"><span></span><span></span><span></span><span></span>speakers</a></li>
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
-                </div>
-             
-            </div> 
+          <div class="nav-icons">
+          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
+          </div>
+        </div>
+     </div>
             
             
 
-            <div class="px-4 px-lg-0">
-
-
+   <div class="px-4 px-lg-0">
   <div class="pb-5">
     <div class="container">
       <div class="row">
