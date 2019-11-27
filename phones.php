@@ -22,9 +22,6 @@
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
-          <div class="nav-icons">
-          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
-          </div>
                 </div>
               
             </div>
@@ -32,8 +29,8 @@
                         <div class="container">
                             <div>
                                 <h1>Introducing Liquid Retina</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                                <a href="details.php?name=iphoneXR" class="btn2">read more</a>
+                                <p>with the new liquid retina display enjoy 4k resolution with 90fps. the screen is mounted with a gorilla glass 6 to protect from scratches. </p>
+                                <a href="details.php?id=1" class="btn2">read more</a>
                             </div>
                                 <img src="images/iphone2.png" alt="">    
                         </div>
@@ -42,8 +39,8 @@
                     <div class="container">
                         <div>
                             <h1>Intelligent and fast processor</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                            <a href="" class="btn1">read more</a>
+                            <p>with processors that provide lighting fast speed experience a whole new horizon of connectivity, Technology that can take you to places.</p>
+                            <a href="details.php?id=2" class="btn1">read more</a>
                         </div>
                             <img src="images/iphone1.png" alt="">    
                     </div>
@@ -53,8 +50,8 @@
                             <div class="container">
                                 <div>
                                     <h1>Breakthrough camera system </h1>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                                    <a href="" class="btn2">read more</a>
+                                    <p>Latest camera technlogy that uses improved infrared sensors to detect motion,and povide a clear image. Using modern AI technology noice from the image are removed.</p>
+                                    <a href="details.php?id=3" class="btn2">read more</a>
                                 </div>
                                     <img src="images/iphone3.png" alt="">    
                             </div>
@@ -63,7 +60,7 @@
                         <footer class="section-footer py-4 bg-primary">
                 <div class="container">
                   <div>
-                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+                  <h2 class="text-2 mb-1">follow us for more info.</h2>
                     <a href="http://facebook.com">
                       <img src="icons\facebook.png" alt="">
                     </a>

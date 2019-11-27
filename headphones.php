@@ -22,17 +22,14 @@
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
-          <div class="nav-icons">
-          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
-          </div>
          </div>   
             </div>
             <section class="section-a">
                 <div class="container">
                     <div>
-                        <h1>Headphones of the future </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                        <a href="" class="btn1">read more</a>
+                        <h1>Tired of wires ?</h1>
+                        <p>with the new blutooth 4.1 experience a wide range of network coonectivity with a range or 100 feet so that you can stay wire free.</p>
+                        <a href="details.php?id=4" class="btn1">read more</a>
                     </div>
                         <img src="images/headphone1.png" alt="">    
                 </div>
@@ -40,9 +37,9 @@
             <section class="section-c">
                 <div class="container">
                     <div>
-                        <h1>Airpods of the future </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                        <a href="" class="btn2">read more</a>
+                        <h1>Gaming experience improved</h1>
+                        <p>The new wireless gaming headphones provide a new gaming experience by reducing noise. Housed with dual microphone to provide better ecperience .</p>
+                        <a href="details.php?id=5" class="btn2">read more</a>
                     </div>
                         <img src="images/headphone2.png" alt="">    
                 </div>
@@ -50,9 +47,9 @@
             <section class="section-a">
                 <div class="container">
                     <div>
-                        <h1>Ear buds of the future </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                        <a href="" class="btn1">read more</a>
+                        <h1>Experience the best </h1>
+                        <p>the new Airpods combine intellignet design with breakthrough technology and crystal clear sound.powered by the new H1 headphones chip</p>
+                        <a href="details.php?id=6" class="btn1">read more</a>
                     </div>
                         <img src="images/headphone3.png" alt="">    
                 </div>
@@ -60,7 +57,7 @@
             <footer class="section-footer py-4 bg-primary">
                 <div class="container">
                   <div>
-                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+                    <h2 class="text-2 mb-1">follow us for more info.</h2>
                     <a href="http://facebook.com">
                       <img src="icons\facebook.png" alt="">
                     </a>

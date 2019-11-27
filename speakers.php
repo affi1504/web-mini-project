@@ -22,18 +22,15 @@
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
-          <div class="nav-icons">
-          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
-          </div>
                 </div>
              
             </div>   
             <section class="section-a">
                 <div class="container">
                     <div>
-                        <h1>speakers of the future </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                        <a href="" class="btn1">read more</a>
+                        <h1>Elegant and small</h1>
+                        <p>compact to look,but its sound is nothing short of large. it produces a well balanced,powerful audio experience,yet it can fit in the tiniest of the place.</p>
+                        <a href="details.php?id=7" class="btn1">read more</a>
                     </div>
                         <img src="images/speaker1.png" alt="">    
                 </div>
@@ -42,9 +39,9 @@
             <section class="section-c">
                 <div class="container">
                     <div>
-                        <h1>speakers of the future </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                        <a href="" class="btn2">read more</a>
+                        <h1>with built-in music</h1>
+                        <p>with built-in airplay and spotify-connect experience a wide collection of music with fee subsription for 1 year.</p>
+                        <a href="details.php?id=8" class="btn2">read more</a>
                     </div>
                         <img src="images/speaker3.png" alt="">    
                 </div>
@@ -52,9 +49,9 @@
             <section class="section-a">
                 <div class="container">
                     <div>
-                        <h1>speakers of the future </h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                        <a href="" class="btn1">read more</a>
+                        <h1>when we say mini,we mean it.</h1>
+                        <p>the size so compact that it can literally fit anywhere,easy to handle and easy to carry around.</p>
+                        <a href="details.php?id=9" class="btn1">read more</a>
                     </div>
                         <img src="images/speaker2.png" alt="">    
                 </div>
@@ -63,7 +60,7 @@
             <footer class="section-footer py-4 bg-primary">
                 <div class="container">
                   <div>
-                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+                  <h2 class="text-2 mb-1">follow us for more info.</h2>
                     <a href="http://facebook.com">
                       <img src="icons\facebook.png" alt="">
                     </a>

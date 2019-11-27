@@ -1,5 +1,10 @@
 <?php 
 include("config.php");
+if(isset($_GET['id'])){
+    $id = $_GET['id'];
+    $sql = "SELECT * FROM `products` WHERE `id`='{$id}'";
+    $result = mysqli_query($db,$sql);
+}
 ?>
 
 
@@ -27,25 +32,23 @@ include("config.php");
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
-          <div class="nav-icons">
-          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
-          </div>
       </div>
   </div>
+
+  <?php
+if(mysqli_num_rows($result)>0){
+$row = mysqli_fetch_assoc($result);
+?>
 <div class="details-body">
   <div class="details-container">
         <div class="details-img-box">
-            <img src="images\speaker1.png" alt="">
+            <img src="<?php echo $row['img_url']; ?>" alt="">
         </div>
         <div class="details-text-box">
-            <h1>iPhone-6S</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique est sunt repellendus, quos laborum nulla labore
-                ucimus dolore ratione dolor eaque repudiandae incidunt doloribus fugit animi quaerat cumque voluptatem obcaecati sed 
-                ssitatibus, quo itaque, a aspernatur. Aspernatur, hic, doloremque eos laboriosam quas minima sunt cum neque, libero 
-                dolorem ratione magnam.</p>
-                <h2>23999/-</h2>
-                <a href="index.php" class="cart-btn"> add to cart</a>
-                <a href="index.php" class="buy-btn"> buy now</a>
+            <h1><?php echo $row['pname']; ?></h1>
+            <p><?php echo $row['details']; ?></p>
+                <h2><?php echo $row['price'] ."/-";} ?></h2>
+                <a href="cart.php?id=<?php echo $row['id'] ?>" class="cart-btn"> buy now</a>
         </div>
     </div>
     </div>

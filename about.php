@@ -67,7 +67,7 @@
 <footer class="section-footer py-4 bg-primary">
                 <div class="container">
                   <div>
-                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+                  <h2 class="text-2 mb-1">follow us for more info.</h2>
                     <a href="http://facebook.com">
                       <img src="icons\facebook.png" alt="">
                     </a>

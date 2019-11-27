@@ -1,75 +1,76 @@
-<!DOCTYPE html>
+<?php 
+include('config.php');
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    
+    $myfname = mysqli_real_escape_string($db,$_POST['fname']);
+    $mylname = mysqli_real_escape_string($db,$_POST['lname']);
+    $myphno = mysqli_real_escape_string($db,$_POST['phno']);
+    $myadd1 = mysqli_real_escape_string($db,$_POST['add1']);
+    $myadd2 = mysqli_real_escape_string($db,$_POST['add2']);
+    $mypin = mysqli_real_escape_string($db,$_POST['pin']);
+    $mycity = mysqli_real_escape_string($db,$_POST['city']);
+    $mystate = mysqli_real_escape_string($db,$_POST['state']); 
+    $mycardno = mysqli_real_escape_string($db,$_POST['cardno']);
+    $myexpiry = mysqli_real_escape_string($db,$_POST['expiry']);
+    $mycvv = mysqli_real_escape_string($db,$_POST['cvv']); 
+    
+    $sql = "INSERT INTO `checkout`(`fname`, `lname`, `phno`, `add1`, `add2`, `pin`, `city`, `state`, `cardno`, `expiry`, `cvv`) VALUES ('{$myfname}','{$mylname}','{$myphno}','{$myadd1}','{$myadd2}','{$mypin}','{$mycity}','{$mystate}','{$mycardno}','{$myexpiry}','{$mycvv}')";
+   if(mysqli_query($db,$sql)){
+  echo "success";
+    }else{
+        echo "not success";
+    }
+}
+ 
+    
+
+
+?>
+
+
+
+ <!DOCTYPE html>
 <html lang="en" class="html">
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/957812a91c.js"></script>
-    <link rel="stylesheet" href="style\navbar.css">
+    <link rel="stylesheet" href="style\navbar2.css">
     <link rel="stylesheet" href="style\checkout.css">
     <title>TECHNIA-a whole new technology</title>
+
 </head>
-<body class="body">
+<body>
 <div class="checkout-panel">
   <div class="panel-body">
     <h2 class="title">Checkout</h2>
- 
-    <div class="progress-bar">
-      <div class="step active"></div>
-      <div class="step active"></div>
-      <div class="step "></div>
-      <div class="step "></div>
+    <form method="POST">
+    <h4>personal details</h4>
+    <div class="personal">
+      <input type="text" name="fname" placeholder="first name" required>
+      <input type="text" name="lname" placeholder="last name" required>
+    <input type="text" name="phno" placeholder="phone number" required>
     </div>
- 
-    <div class="input-fields">
-      <div class="column-1">
-        <label for="cardholder">Cardholder's Name</label>
-        <input type="text" id="cardholder" />
- 
-        <div class="small-inputs">
-          <div>
-            <label for="date">Valid thru</label>
-            <input type="text" id="date" placeholder="MM / YY" />
-          </div>
- 
-          <div>
-            <label for="verification">CVV / CVC *</label>
-            <input type="password" id="verification"/>
-          </div>
-        </div>
- 
-      </div>
-      <div class="column-2">
-        <label for="cardnumber">Card Number</label>
-        <input type="password" id="cardnumber"/>
- 
-        <span class="info">* CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
-      </div>
+    <h4>delivery details</h4>
+    <div class="address">
+    <input type="text" name="add1" placeholder="Flat, House no, Building" required>
+    <input type="text" name="add2" placeholder="Area, Colony, Street" required>
+    <input type="text" name="pin" placeholder="pincode" required>
+    <input type="text" name="city" placeholder="town/city" required>
+    <input type="text" name="state" placeholder="state" required>
     </div>
+    <h4>payment details</h4>
+    <div class="payment">
+      <input type="text" name="cardno" placeholder="card number" required>
+      <input type="text" name="expiry" placeholder="mm-yy" required>
+      <input type="text" name="cvv" placeholder="cvv" required>
+    </div>
+<a href="index.php" class="btn back-btn">go to home</a>
+<input type="reset" value="clear" class="btn back-btn">
+<input type="submit" value="place order" class="btn next-btn">
 
-
-
-
-
-
-
-
-
-
-  </div>
-
-
-
-
-  
- 
-  <div class="panel-footer">
-    <a href="index.php" class="btn back-btn"> home</a>
-    <a class="btn next-btn">back</a>
-    <a class="btn next-btn">Next Step</a>
-  </div>
-
-
+    </form>
+</div>   
 </div>
 </body>
 </html>

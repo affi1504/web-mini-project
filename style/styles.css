@@ -364,7 +364,7 @@ text-transform: uppercase;
 
 .details-container .details-text-box h1{
     margin-left: 10px;
-  font-size: 3em;
+  font-size: 1.6rem;
   color: #444;
   letter-spacing: 1px;
   line-height: 1.5rem;
@@ -539,4 +539,3 @@ text-transform: uppercase;
 .social-icons div.google{
     background: #fb4f4f;
 }
-

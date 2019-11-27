@@ -1,3 +1,26 @@
+<?php 
+include('config.php');
+if($_SERVER["REQUEST_METHOD"] == "POST") {
+    
+    $myname = mysqli_real_escape_string($db,$_POST['name']);
+    $myemail = mysqli_real_escape_string($db,$_POST['email']);
+    $myphone = mysqli_real_escape_string($db,$_POST['phone']);
+    $mymessage = mysqli_real_escape_string($db,$_POST['message']); 
+    
+    $sql = "INSERT INTO `contact`(`name`, `email`, `phone`, `message`) VALUES ('{$myname}','{$myemail}','{$myphone}','{$mymessage}')";
+    if(mysqli_query($db,$sql)){
+  echo "success";
+    }else{
+        echo "not success";
+    }
+}
+ 
+    
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,9 +45,6 @@
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="" class="selected btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
-          <div class="nav-icons">
-          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
-          </div>
         </div>
        
     </div>
@@ -36,20 +56,20 @@
         <form action="" method="POST">
         <div class="form">
             <div class="form-items">
-                <input type="text" class="input" placeholder="Name">
+                <input type="text" class="input" name="name" placeholder="Name" required>
                 <i class="fas fa-user"></i>
             </div>
             <div class="form-items">
-                <input type="text" class="input" placeholder="E-mail">
+                <input type="text" class="input" name="email" placeholder="E-mail" required>
                 <i class="fas fa-envelope"></i>
             </div>
             <div class="form-items">
-                <input type="text" class="input" placeholder="Phone number">
+                <input type="text" class="input" name="phone" placeholder="Phone number" required>
                 <i class="fas fa-phone"></i>
             </div>
 
             <div class="form-items">
-                <textarea class="input message" cols="30" rows="10" placeholder="Message..."></textarea>
+                <textarea class="input message" cols="30" rows="10" name="message" placeholder="Message..." required></textarea>
             </div>
         </div>
         <input type="submit" class="contact-btn" value="submit">

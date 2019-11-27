@@ -22,9 +22,6 @@
               <li><a href="about.php" class="btn-glow"><span></span><span></span><span></span><span></span>about</a></li>
               <li><a href="contact.php" class="btn-glow"><span></span><span></span><span></span><span></span>contact</a></li>
           </ul>
-          <div class="nav-icons">
-          <a href="cart.php"><img src="icons\shopping-cart.png" alt=""></a>
-          </div>
       </div>
   </div>  
 
@@ -32,8 +29,8 @@
     <div class="container">
         <div>
             <h1>Phones of the future </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-            <a href="details.php?name=iphone6s" class="btn1">read more</a>
+            <p>with processors that provide lighting fast speed experience a whole new horizon of connectivity, Technology that can take you to places.</p>
+            <a href="details.php?id=2" class="btn1">read more</a>
         </div>
             <img src="images/iphone1.png" alt="">    
     </div>
@@ -49,8 +46,8 @@
         <div class="container">
             <div>
                 <h1>Brilliant.In every way.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                <a href="details.php?name=beatsheadphones" class="btn1">read more</a>
+                <p>with the new blutooth 4.1 experience a wide range of network coonectivity with a range or 100 feet so that you can stay wire free.</p>
+                <a href="details.php?id=4" class="btn1">read more</a>
             </div>
                 <img src="images/headphone1.png" alt="">    
         </div>
@@ -60,8 +57,8 @@
             <div class="container">
                 <div>
                     <h1>Technologies never seen before</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corrupti tempora at repellendus ipsum? Cum sapiente ipsam aspernatur illo possimus?</p>
-                    <a href="" class="btn2">read more</a>
+                    <p>We know you love music, introducing Dolby technology 5.1 with surround music in a compact size.</p>
+                    <a href="details.php?id=8" class="btn2">read more</a>
                 </div>
                     <img src="images/speaker3.png" alt="">    
             </div>
@@ -70,7 +67,7 @@
         <footer class="section-footer py-4 bg-primary">
                 <div class="container">
                   <div>
-                    <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
+                  <h2 class="text-2 mb-1">follow us for more info.</h2>
                     <a href="http://facebook.com">
                       <img src="icons\facebook.png" alt="">
                     </a>
