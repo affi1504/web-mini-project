@@ -6,18 +6,21 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $myemail = mysqli_real_escape_string($db,$_POST['email']);
     $myphone = mysqli_real_escape_string($db,$_POST['phone']);
     $mymessage = mysqli_real_escape_string($db,$_POST['message']); 
-    
+    if( preg_match('([a-zA-Z].*[0-9]|[0-9].*[a-zA-Z])', $myname) ) 
+    { 
+        $unsuccess = "the entered name contains numbers, please enter a valid name and try again.";
+        echo "<script type='text/javascript'>alert('$unsuccess');</script>";
+    } else {
     $sql = "INSERT INTO `contact`(`name`, `email`, `phone`, `message`) VALUES ('{$myname}','{$myemail}','{$myphone}','{$mymessage}')";
     if(mysqli_query($db,$sql)){
-  echo "success";
+        $success = "thankyou, we will reach out to you soon!";
+        echo "<script type='text/javascript'>alert('$success');</script>";
     }else{
-        echo "not success";
+        $unsuccess = "Something went wrong, Please try again.";
+        echo "<script type='text/javascript'>alert('$unsuccess');</script>";
     }
 }
- 
-    
-
-
+}
 ?>
 
 
@@ -31,6 +34,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="https://kit.fontawesome.com/957812a91c.js"></script>
     <link rel="stylesheet" href="style\styles.css">
     <link rel="stylesheet" href="style\navbar.css">
+    <script src="js\snackbar.js"></script>
     <title>TECHNIA-a whole new technology</title>
 </head>
 <body id="home">
@@ -60,11 +64,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                 <i class="fas fa-user"></i>
             </div>
             <div class="form-items">
-                <input type="text" class="input" name="email" placeholder="E-mail" required>
+                <input type="text" class="input" name="email" placeholder="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                 <i class="fas fa-envelope"></i>
             </div>
             <div class="form-items">
-                <input type="text" class="input" name="phone" placeholder="Phone number" required>
+                <input type="text" class="input" name="phone" placeholder="Phone number" required pattern=".{10}">
                 <i class="fas fa-phone"></i>
             </div>
 
@@ -83,7 +87,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <a href="https:\\www.google.com"> <div class="google"><img src="icons\google-plus.png" class="fab fa-google-plus-g"> </div></a>
         </div>
-
     </div>
     
 </body>

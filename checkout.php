@@ -16,9 +16,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $sql = "INSERT INTO `checkout`(`fname`, `lname`, `phno`, `add1`, `add2`, `pin`, `city`, `state`, `cardno`, `expiry`, `cvv`) VALUES ('{$myfname}','{$mylname}','{$myphno}','{$myadd1}','{$myadd2}','{$mypin}','{$mycity}','{$mystate}','{$mycardno}','{$myexpiry}','{$mycvv}')";
    if(mysqli_query($db,$sql)){
-  echo "success";
+    $success = "thankyou, Your order will be delievered soon!";
+        echo "<script type='text/javascript'>alert('$success');</script>";
     }else{
-        echo "not success";
+        $unsuccess = "Something went wrong, Please try again.";
+        echo "<script type='text/javascript'>alert('$unsuccess');</script>";
     }
 }
  
@@ -49,21 +51,21 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="personal">
       <input type="text" name="fname" placeholder="first name" required>
       <input type="text" name="lname" placeholder="last name" required>
-    <input type="text" name="phno" placeholder="phone number" required>
+    <input type="text" name="phno" placeholder="phone number" required  pattern=".{10}">
     </div>
     <h4>delivery details</h4>
     <div class="address">
     <input type="text" name="add1" placeholder="Flat, House no, Building" required>
     <input type="text" name="add2" placeholder="Area, Colony, Street" required>
-    <input type="text" name="pin" placeholder="pincode" required>
+    <input type="text" name="pin" placeholder="pincode" required  pattern="[0-9]{10}">
     <input type="text" name="city" placeholder="town/city" required>
     <input type="text" name="state" placeholder="state" required>
     </div>
     <h4>payment details</h4>
     <div class="payment">
-      <input type="text" name="cardno" placeholder="card number" required>
+      <input type="text" name="cardno" placeholder="card number" required  pattern="[0-9]{12}">
       <input type="text" name="expiry" placeholder="mm-yy" required>
-      <input type="text" name="cvv" placeholder="cvv" required>
+      <input type="text" name="cvv" placeholder="cvv" required  pattern="[0-9]{3}">
     </div>
 <a href="index.php" class="btn back-btn">go to home</a>
 <input type="reset" value="clear" class="btn back-btn">
